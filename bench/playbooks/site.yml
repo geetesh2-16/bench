@@ -12,7 +12,7 @@
     - { role: swap,              tags: swap,             when: production and not container }
     - { role: logwatch,          tags: logwatch,         when: production                   }
     - { role: bash_screen_wall,  tags: bash_screen_wall, when: production                   }
-    - { role: nts_selinux,    tags: nts_selinux,   when: production                   }
+    - { role: frappe_selinux,    tags: frappe_selinux,   when: production                   }
     - { role: dns_caching,       tags: dns_caching,      when: production                   }
     - { role: ntpd,              tags: ntpd,             when: production                   }
     - { role: wkhtmltopdf,       tags: wkhtmltopdf                                          }
